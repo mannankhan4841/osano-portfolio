@@ -1,0 +1,720 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+body{
+	font-size: 14px;
+	line-height: 24px;
+    scroll-behavior: smooth;
+}
+h1, h2, h3, h4, h5, h6{
+	font-family: 'IBM Plex Sans', sans-serif;
+}
+a, a:hover{
+	text-decoration:none;
+}
+/*header css start*/
+
+.header{
+	width: 100%;
+	background: #00b894;
+}
+.header .navbar-nav{
+	margin: auto;
+}
+.header .isStuck {
+    left: 0px;
+    width: 100%;
+    
+}
+.header .navbar-wrapper {
+    width: 100%;
+    margin-top: 0px;
+    position: relative;
+    z-index: 15;
+    background:#00b894 !important
+}
+.header .top-header .talk-btn .btn-primary {
+    color: #fff;
+    background-color: transparent;
+    border-color: #fff;
+    padding: 10px 20px;
+    border-radius: 9999px;
+    font-weight: 500;
+    border: 3px solid;
+    font-family: 'Open Sans', sans-serif;
+}
+.header .top-header .talk-btn .btn-primary:hover{
+	background: #fff;
+	color: #00b894;
+	border: 3px solid #fff;
+}
+.bg-light {
+    background-color: transparent !important;
+}
+.navbar-light .navbar-brand {
+    color: #fff;
+}
+.navbar-light .navbar-brand:hover, .navbar-light .navbar-brand:focus {
+    color: #fff;
+}
+.navbar-light .navbar-nav .nav-link:focus, .navbar-light .navbar-nav .nav-link:hover {
+    color: #fff;
+}
+.navbar-light .navbar-nav .nav-link {
+    color: #fff;
+    font-size: 17px;
+    font-family: 'IBM Plex Sans', sans-serif;
+}
+.navbar-light .navbar-brand h2{
+    font-size: 45px;
+    font-weight: 600;
+}
+.header .bottom-header .offset-md-1 img{
+    width: 100%;
+    border: 4px solid #fff;
+    padding: 10px;
+    border-radius: 9999px;
+}
+.header .bottom-header .bottom-header-row{
+    padding: 80px 0 70px 0;
+}
+.header .bottom-header .bottom-header-row .inner-content-bheader{
+    padding: 50px;
+    color: #fff;
+}
+.header .bottom-header .bottom-header-row .inner-content-bheader h1{
+	font-size: 45px;
+    font-weight: 400;
+    line-height: 55px;
+}
+.header .bottom-header .bottom-header-row .inner-content-bheader .typed{
+	font-size: 43px;
+}
+.header .bottom-header .bottom-header-row .inner-content-bheader h6{
+	font-size: 27px;
+    line-height: 37px;
+    font-weight: 300;
+}
+.contact-info {
+    color: #fff;
+    text-align: center;
+    padding-bottom: 60px;
+    width: 70%;
+    margin: auto;
+}
+.contact-info h6{
+	font-size: 18px;
+    margin-bottom: 3px;
+    text-transform: uppercase;
+}
+.contact-info p{
+	    font-size: 17px;
+}
+.contact-info i{
+	
+}
+/*header css end*/
+
+/*works css start*/
+.works {
+    width: 100%;
+    background: #f7f7f7;
+    padding: 80px 0 60px;
+}
+.works .filter{
+	text-align: center;
+}
+
+.works .filter .btn-info {
+    padding: 8px 20px;
+    color: #fff;
+    font-family: 'Open Sans', sans-serif;
+    text-transform: uppercase;
+    font-weight: 600;
+    background: #00b894;
+    border-radius: 9999px;
+    margin: 0 5px 30px;
+    border: 3px solid #00b894;
+}
+.works .filter .btn-info:hover,
+.works .filter .btn-info:focus{
+	border: 3px solid #00b894;
+	background: transparent;
+	color: #00b894;
+}
+.works .portfolio {
+	width: 100%;
+}
+.works .portfolio .mix {
+	padding: 0;
+}
+.works .portfolio .mix .item{
+	padding: 20px;
+}
+.works .portfolio .mix .item img{
+	width: 100%;
+}
+.works .works-title {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #00b894;
+}
+.works .works-title h1 {
+    font-weight: 700;
+}
+/*works css end*/
+
+/*services css start*/
+.services{
+	width: 100%;
+	padding: 80px 0;
+	    background: #00b894;
+
+}
+.services .ser-work {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #00b894;
+}
+.services .ser-work h1 {
+    font-weight: 700;
+    margin-bottom: 35px;
+    color: #fff;
+}
+
+.services .card{
+    border: 3px solid #00b894;
+}
+.services .card img{
+	width: 100%;
+	height: 240px;
+	padding: 10px;
+}
+.services .card .card-body {
+    padding: 20px;
+}
+.services .card .card-body .card-title {
+    margin-bottom: .5rem;
+    font-size: 28px;
+    text-transform: uppercase;
+    color: #00b894;
+    font-weight: 700;
+}
+.services .card .card-body .card-text {
+    font-size: 17px;
+    color: #00b894;
+    text-align: justify;
+	padding: 10px 0;
+    font-family: 'Merriweather Sans', sans-serif;
+    font-weight: 300;
+}
+.services .card .card-body .btn.btn-primary {
+    padding: 10px 20px;
+    font-size: 17px;
+    text-transform: uppercase;
+    font-weight: 400;
+    font-family: 'Open Sans', sans-serif;
+    letter-spacing: 1px;
+    border-radius: 9999px;
+    background: #00b894;
+    border: 3px solid #00b894;
+    margin-bottom: 10px;
+}
+.services .card .card-body .btn.btn-primary:hover{
+	background: transparent;
+    border: 3px solid #00b894;
+    color: #00b894
+}
+/*services css end*/
+
+/*testimonail css start*/
+.testimonail{
+	width: 100%;
+	padding: 80px 0;
+	background: #f7f7f7;
+}
+.testimonail .testimonail-title {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #00b894;
+}
+.testimonail .testimonail-title h1{
+    font-weight: 700;
+    margin-bottom: 35px;
+    text-transform: uppercase;
+}
+.testimonail .owl-carousel .card {
+    text-align: center;
+    background: #00b894;
+}
+
+.testimonail .owl-carousel .owl-item img {
+    width: 35%;
+    border: 4px solid #fff;
+    border-radius: 9999px;
+    padding: 5px;
+    margin: auto;
+    margin-bottom: 35px;
+}
+.testimonail .owl-carousel .card .card-body .card-title {
+    margin-bottom: .5rem;
+    font-size: 27px;
+    text-transform: uppercase;
+    color: #fff;
+    font-weight: 500;
+    line-height: 37px;
+}
+.testimonail .owl-carousel .card .card-body .card-text {
+    color: #fff;
+    font-size: 17px;
+    line-height: 27px;
+    margin: 28px 0;
+}
+.testimonail .owl-theme .owl-dots .owl-dot span {
+    margin-top: 45px;
+    width: 12px;
+    height: 12px;
+}
+
+/*testimonail css end*/
+
+/*counting css start*/
+.counting{
+	width: 100%;
+	padding:40px 0;
+	background: #dddddd;
+	text-align: center;
+}
+.counting i{
+	color: #00b894;
+    font-size: 45px;
+    line-height: 55px;
+    margin-bottom: 20px;
+}
+.counting h2{
+	font-size: 45px;
+    color: #00b894;
+}
+.counting p{
+	    text-transform: uppercase;
+    font-size: 25px;
+    padding: 20px 0;
+    font-weight: 700;
+    color: #00b894;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*counting css end*/
+
+/*contactus css start*/
+.contactus{
+	width: 100%;
+	padding: 80px 0;
+	background: 00b894;
+}
+.contactus .title-CU {
+	text-align: center;
+    margin-bottom: 20px;
+}
+
+.contactus .title-CU h1{
+	color: #00b894;
+	font-weight: 700;
+    margin-bottom: 35px;
+    text-transform: uppercase;
+}
+.form .form-group input{
+	width: 100%;
+    margin-bottom: 20px;
+    padding: 20px;
+    border: 3px solid #00b894;
+    font-size: 19px;
+    color: #00b894;
+    outline: none;
+}
+.form .form-group{
+	width: 100%;
+}
+.form .form-group textarea{
+	width: 100%;
+    margin-bottom: 3%;
+    padding: 20px;
+    border: 3px solid #00b894;
+    font-size: 19px;
+    color: #00b894;
+    outline: none;
+    height: 160px;
+}
+.form .form-group .btn-primary{
+    width: 100%;
+    border: 3px solid #00b894;
+    border-radius: 0;
+    font-size: 19px;
+    font-family: 'Merriweather Sans', sans-serif;
+    text-transform: uppercase;
+    padding: 18px;
+    background: #fff;
+    color: #00b894;
+}
+.form .form-group .btn-primary:hover{
+	background: #00b894;
+    color: #fff;
+    border: 3px solid #00b894;
+}
+.contactus .or-row{
+	margin-top: 20px;
+}
+.contactus .or-row h1{
+	color: #00b894;
+    margin-bottom: 35px;
+    text-transform: uppercase;
+    font-weight: 300;
+    font-size: 32px;
+}
+.social {
+    width: 100%;
+}
+.social ul{
+	list-style: none;
+    display: inline-flex;
+    padding: 0;
+}
+.social ul li{
+	margin: 0 20px;
+    width: 70px;
+    height: 70px;
+    border: 3px solid #00b894;
+    padding: 15px;
+    border-radius: 9999px;
+    transition: 0.5s;
+    cursor: pointer;
+}
+.social ul li i{
+	font-size: 32px;
+	color: #00b894;
+	transition: 0.5s;
+}
+.social ul li:hover{
+	border: 3px solid #00b894;
+	background: #00b894
+}
+.social ul li:hover i{
+	color: #fff;
+}
+/*contactus css end*/
+/*footer css start*/
+.footer{
+	width: 100%;
+	padding: 20px 0;
+	background: #00b894;
+}
+.footer h1{
+    font-size: 45px;
+    font-weight: 600;
+    color: #fff;
+    margin-bottom: 20px;
+}
+.footer p{
+    margin-bottom: 0;
+    font-size: 17px;
+    color: #fff;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 100;
+    letter-spacing: 1px;
+    word-spacing: 2px;
+}
+/*Media Quaries start here*/
+@media (min-width: 320px) and (max-width: 480px){
+	.navbar-light .navbar-brand {
+    margin-right: 0;
+}
+.navbar-light .navbar-brand h2 {
+    font-size: 30px;
+}
+.bar i {
+    color: #fff;
+}
+.navbar-light .navbar-toggler {
+    color: #fff;
+    border: 1px solid #fff;
+    margin: 0 8px;
+}
+.header .top-header  .talk-btn .btn-primary {
+    padding: 7px 12px;
+    border: 2px solid;
+    font-size: 14px;
+}
+.header .bottom-header .offset-md-1 img {
+    width: 45%;
+    border: 3px solid #fff;
+    padding: 5px;
+}
+.image-name {
+    text-align: center;
+    width: 100%;
+}
+.image-man{
+	text-align: center;
+}
+.header .bottom-header .bottom-header-row .inner-content-bheader {
+    padding: 0px;
+    margin-top: 15px;
+}
+.header .bottom-header .bottom-header-row .inner-content-bheader h1 {
+    font-size: 23px;
+    line-height: 33px;
+}
+.header .bottom-header .bottom-header-row .inner-content-bheader h6 {
+    font-size: 17px;
+    line-height: 27px;
+}
+.contact-info {
+    width: 100%;
+}
+.contact-info h6 {
+    font-size: 13px;
+    margin-bottom: 0px;
+}
+.contact-info p {
+    font-size: 12px;
+}
+.contact-info .cinfo-col {
+    width: 50%;
+}
+.works {
+    padding: 40px 0 30px;
+}
+.works .works-title h1 {
+    font-size: 23px;
+}
+.works .filter .btn-info {
+    padding: 3px 15px;
+    margin: 0 5px 15px;
+    border: 2px solid #00b894;
+    font-size: 12px;
+}
+.services {
+    padding: 40px 0;
+}
+
+.services .ser-work h1 {
+	font-size: 23px;
+	margin-bottom: 15px;
+}
+.services .card {
+    margin-bottom: 15px;
+}
+.services .card img {
+    padding: 20px;
+    height: auto;
+}
+.services .card .card-body .card-title {
+    font-size: 24px;
+}
+.services .card .card-body .card-text {
+    font-size: 14px;
+}
+.services .card .card-body .btn.btn-primary {
+    padding: 8px 18px;
+    font-size: 13px;
+}
+.talk-btn {
+    display: none;
+}
+
+
+
+
+
+
+	.social ul li {
+    margin: 0 5px;
+    width: 45px;
+    height: 45px;
+    padding: 8px;
+}
+.social ul li i {
+    font-size: 18px;
+}
+.header .bottom-header .bottom-header-row .inner-content-bheader .typed{
+	font-size: 23px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
+@media (min-width: 481px) and (max-width: 767px){
+	
+	.navbar-light .navbar-brand {
+    margin-right: 0;
+}
+.navbar-light .navbar-brand h2 {
+    font-size: 30px;
+}
+.bar i {
+    color: #fff;
+}
+.navbar-light .navbar-toggler {
+    color: #fff;
+    border: 1px solid #fff;
+    margin: 0 8px;
+}
+.header .top-header  .talk-btn .btn-primary {
+    padding: 7px 12px;
+    border: 2px solid;
+    font-size: 14px;
+}
+.header .bottom-header .offset-md-1 img {
+    width: 45%;
+    border: 3px solid #fff;
+    padding: 5px;
+}
+.image-name {
+    text-align: center;
+    width: 100%;
+}
+.image-man{
+	text-align: center;
+}
+.header .bottom-header .bottom-header-row .inner-content-bheader {
+    padding: 0px;
+    margin-top: 15px;
+}
+.header .bottom-header .bottom-header-row .inner-content-bheader h1 {
+    font-size: 23px;
+    line-height: 33px;
+}
+.header .bottom-header .bottom-header-row .inner-content-bheader h6 {
+    font-size: 17px;
+    line-height: 27px;
+}
+.contact-info {
+    width: 100%;
+}
+.contact-info h6 {
+    font-size: 13px;
+    margin-bottom: 0px;
+}
+.contact-info p {
+    font-size: 12px;
+}
+.contact-info .cinfo-col {
+    width: 50%;
+}
+.works {
+    padding: 40px 0 30px;
+}
+.works .works-title h1 {
+    font-size: 23px;
+}
+.works .filter .btn-info {
+    padding: 3px 15px;
+    margin: 0 5px 15px;
+    border: 2px solid #00b894;
+    font-size: 12px;
+}
+.services {
+    padding: 40px 0;
+}
+
+.services .ser-work h1 {
+	font-size: 23px;
+	margin-bottom: 15px;
+}
+.services .card {
+    margin-bottom: 15px;
+}
+.services .card img {
+    padding: 20px;
+    height: auto;
+}
+.services .card .card-body .card-title {
+    font-size: 24px;
+}
+.services .card .card-body .card-text {
+    font-size: 14px;
+}
+.services .card .card-body .btn.btn-primary {
+    padding: 8px 18px;
+    font-size: 13px;
+}
+.talk-btn {
+    display: none;
+}
+.header .bottom-header .bottom-header-row .inner-content-bheader .typed{
+	font-size: 23px;
+}
+
+
+
+
+
+	.social ul li {
+    margin: 0 5px;
+    width: 45px;
+    height: 45px;
+    padding: 8px;
+}
+.social ul li i {
+    font-size: 18px;
+}
+
+
+
+
+
+
+
+
+
+}
+@media (min-width: 768px) and (max-width: 1024px){
+	
+}
+/*Media Quaries End here*/
+
+
+font-family: 'IBM Plex Sans', sans-serif;
+font-family: 'Merriweather Sans', sans-serif;
+font-family: 'Open Sans', sans-serif;
+
+
